@@ -1,9 +1,9 @@
 package br.com.ordem.servico.oficina_mecanica.services.validation;
 
+import br.com.ordem.servico.oficina_mecanica.controllers.exception.FieldMessage;
 import br.com.ordem.servico.oficina_mecanica.domain.Cliente;
 import br.com.ordem.servico.oficina_mecanica.dto.ClienteDTO;
 import br.com.ordem.servico.oficina_mecanica.repository.ClienteRepository;
-import com.oficina.ordem_de_servico.controllers.exception.FieldMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 

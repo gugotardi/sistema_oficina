@@ -1,4 +1,4 @@
-package com.oficina.ordem_de_servico.controllers.exception;
+package br.com.ordem.servico.oficina_mecanica.controllers.exception;
 
 import java.io.Serializable;
 
