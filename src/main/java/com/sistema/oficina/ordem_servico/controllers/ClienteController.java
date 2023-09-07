@@ -22,6 +22,16 @@ import com.sistema.oficina.ordem_servico.entities.dto.ClienteDTO;
 import com.sistema.oficina.ordem_servico.entities.dto.ClienteNewDTO;
 import com.sistema.oficina.ordem_servico.service.ClienteService;
 
+/*A annotation @RestController no Spring MVC nada mais é do que uma combinação das annotations @Controller e @ResponseBody
+  No Framework Spring, um Controller é uma classe responsável pela preparação de um modelo de Map com dados a serem exibidos pela view e 
+ * pela escolha da view correta. Basicamente ele é o responsável por controlar as requisições indicando quem deve 
+ * receber as requisições para quem deve responde-las. Também pode mandar diretamente no fluxo do response usando a 
+ * anotação @ResponseBody e concluir a solicitação.*/
+
+/* Request Mapping: A anotação que indica que o controlador,que nesse caso é a classe Cliente receberá requisições feitas à URL
+ * o @RequestMapping é genérico e vale para quantos métodos HTTP você quiser, enquanto o @GetMapping só 
+ * vale para requisições GET, @PostMapping só para requisições POST e assim em diante  */
+
 @RestController
 @RequestMapping(value="/clientes")
 public class ClienteController {

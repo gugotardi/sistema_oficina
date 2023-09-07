@@ -33,6 +33,12 @@ public class Clientes implements Serializable {
 	private String cpfOuCnpj;
 	private Integer tipo;
 	
+	// Api Collections São classes que ajudam a manipular um objeto elas contem as principais funcionalidades para se trabalhar com conjunto de elementos (coleções), 
+	//as principais são list, set e map. Eles pertencem ao pacote java.util
+	// List, Set e Map são interfaces e com isso elas possuem baixo acoplamento. Já o ArrayList, HashSet e HashMap são classes que implementam as suas respectivas 
+	// interfaces (List, Set e Map), por ser mais específicar, elas possuem já um maior acoplamento.
+	// List: Tipo de lista que pode exibir valores duplicados ou nulos. No exemplo abaixo o List é uma interface e o ArrayList é a classe que a implementa.
+	// ArryaList é uma collection organizada, ou seja, garamte qie as coleções serão percorridas na mesma ordem em que os elementos são inseridos.
 	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
 	private List<Endereco> enderecos = new ArrayList<>();
 	
