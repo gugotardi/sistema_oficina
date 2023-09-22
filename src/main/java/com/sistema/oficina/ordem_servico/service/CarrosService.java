@@ -10,9 +10,6 @@ import org.springframework.stereotype.Service;
 import com.sistema.oficina.ordem_servico.entities.Carros;
 import com.sistema.oficina.ordem_servico.repositories.CarroRepository;
 
-//Notação do springframework que identifica a camada de serviço da aplicação, essa camada é a mais próxima ao repositório e é usada para criar
-// comunciação entre a camada de controle, onde está configurados os métodos rest e a camada de repositório onde estão as informações de acesso dos
-// ao Banco de Dados.
 @Service
 public class CarrosService {
 	

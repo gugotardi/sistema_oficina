@@ -1,0 +1,21 @@
+"RESTful" é um termo que se refere a um estilo arquitetônico de design de sistemas de software para redes, especialmente para a World Wide Web. A sigla REST significa "Representational State Transfer" (Transferência de Estado Representacional, em português), e foi introduzida por Roy Fielding em sua tese de doutorado em 2000.
+
+Os sistemas RESTful são projetados com os seguintes princípios em mente:
+
+1. **Recursos (Resources)**: Em um sistema RESTful, tudo é tratado como um recurso, que pode ser uma entidade de dados, como um documento, imagem, ou um objeto de negócios. Cada recurso é identificado por uma URI (Uniform Resource Identifier).
+
+2. **Operações bem definidas**: As operações realizadas em recursos são padronizadas e bem definidas. As operações comuns incluem GET (para recuperar informações), POST (para criar recursos), PUT (para atualizar recursos) e DELETE (para remover recursos).
+
+3. **Estado Representacional (Representational State)**: O estado de um recurso é representado em um formato apropriado, como JSON ou XML. Quando um cliente solicita um recurso, ele recebe uma representação desse recurso.
+
+4. **Comunicação sem estado (Stateless)**: Cada solicitação feita pelo cliente para o servidor deve conter todas as informações necessárias para entender e processar a solicitação. O servidor não deve manter nenhum estado da sessão do cliente entre solicitações.
+
+5. **Interface uniforme**: A arquitetura RESTful utiliza uma interface uniforme para interações entre clientes e servidores, o que simplifica o sistema e melhora a escalabilidade.
+
+6. **Sistema Cliente-Servidor**: A arquitetura é baseada no princípio de separação de preocupações entre o cliente e o servidor, permitindo que eles evoluam independentemente.
+
+7. **Camadas (Layered System)**: O sistema pode ser composto por várias camadas intermediárias, como caches, gateways e proxies, que podem melhorar o desempenho, escalabilidade e segurança do sistema.
+
+8. **Code on Demand (Opcional)**: Este é um princípio opcional, que permite que partes do código sejam transferidas do servidor para o cliente sob demanda. Isso é comumente usado para baixar código executável, como applets ou scripts, para serem executados no cliente.
+
+Os sistemas RESTful são amplamente utilizados para projetar APIs (Interfaces de Programação de Aplicativos) da web, onde os recursos são acessados e manipulados por meio de URLs e operações HTTP. Isso torna as APIs RESTful populares para o desenvolvimento de serviços web e integração de sistemas distribuídos.
