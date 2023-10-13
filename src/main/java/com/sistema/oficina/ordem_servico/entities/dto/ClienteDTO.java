@@ -8,7 +8,9 @@ import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Length;
 
 import com.sistema.oficina.ordem_servico.entities.Clientes;
+import com.sistema.oficina.ordem_servico.service.validation.ClienteUpdate;
 
+@ClienteUpdate 
 public class ClienteDTO implements Serializable{
 
 	
